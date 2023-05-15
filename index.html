@@ -19,7 +19,7 @@
                     <li><a href="#I">Introduccion</a></li>
                     <li><a href="#U1">Unidad 1</a></li>
                     <ul class="submenu">
-                            <li><a href="#1.1">1.1 Modelos de arquitectura de computo</a></li>
+                            <li><a href="#1.1">1.1 MODELOS DE ARQUITECTURA DE COMPUTO</a></li>
                             <li><a href="#1.1.1"></a></li>
                             <li><a href="#1.1.2"></a></li>
                             <li><a href="#1.1.3"></a></li>
@@ -76,7 +76,7 @@
             <p>La arquitectura de computadoras también implica decisiones de diseño, como la elección de la estructura de la CPU, la cantidad y tipo de memoria, el sistema de almacenamiento y los protocolos de comunicación. Estas decisiones tienen un impacto en el rendimiento, la eficiencia energética y la capacidad de expansión del sistema informático. </p>
             <h1 id = "U1">Unidad 1. Arquitectura de Computo</h1>
             <h3 id = "1.1" > 1.1 MODELOS DE ARQUITECTURA DE COMPUTO </h3>
-            <h3 id = “1.1.1”> 1.1.1 ARQUITECTURA CLASICA </h3>
+            <h3 id = "1.1.1"> 1.1.1 ARQUITECTURA CLASICA </h3>
                 <p> Estas arquitecturas se desarrollaron en las primeras computadoras electromecánicas y de tubos de vacío. Aun son usadas en procesadores empotrados de gama baja y son la base de la mayoría de las arquitecturas modernas. <p>
            <h4> Arquitectura Mauchly-Eckert (Von Newman) </h4>
                 <p>Esta arquitectura fue utilizada en la computadora ENIAC. Consiste en una unidad central de proceso que se comunica a través de un solo bus con un banco de memoria en donde se almacenan tanto los códigos de instrucción del programa, como los datos que serán procesados por este.
@@ -88,7 +88,7 @@
                <p>Esta arquitectura surgió en la universidad del mismo nombre, poco después de que la arquitectura Von Newman apareciera en la universidad de Princeton. Al igual que en la  arquitectura Von Newman, el programa se almacena como un código numérico en la memoria, pero no en el mismo espacio de memoria ni en el mismo formato que los datos. Por ejemplo, se pueden almacenar las instrucciones en doce bits en la memoria de programa, mientras los datos de almacenan en ocho bits en una memoria aparte. </p>
                <p>El hecho de tener un bus separado para el programa y otro para los datos permite que se lea el código de operación de una instrucción, al mismo tiempo se lee de la memoria de datos los operados de la instrucción previa. Así se evita el problema del cuello de botella de Von Newman y se obtiene un mejor desempeño. </p>
                <p>En la actualidad la mayoría de los procesadores modernos se conectan al exterior de manera similar a a la arquitectura Von Newman, con un banco de memoria masivo único, pero internamente incluyen varios niveles de memoria cache con bancos separados en cache de programa y cache de datos, buscando un mejor desempeño sin perder la versatilidad. </p>
-           <h3 id = “1.1.2”>1.1.2 ARQUITECTURAS SEGMENTADAS </h3>
+           <h3 id = "1.1.2">1.1.2 ARQUITECTURAS SEGMENTADAS </h3>
                <p>Las arquitecturas segmentadas o con segmentación del cauce buscan mejorar el desempeño realizando paralelamente varias etapas del ciclo de instrucción al mismo tiempo. El procesador se divide en varias unidades funcionales independientes y se dividen entre ellas el procesamiento de las instrucciones. 
                    Para comprender mejor esto, supongamos  que un procesador simple tiene un ciclo de instrucción sencillo consistente solamente en una etapa de búsqueda del código de instrucción y en otra etapa de ejecución de la instrucción. En un procesador sin segmentación del cauce, las dos etapas se realizarían de manera secuencial para cada una de las instrucciones, como lo muestra la siguiente figura. </p>
                <p>En un procesador con segmentación del cauce, cada una de estas etapas se asigna a una unidad funcional diferente, la búsqueda a la unidad de búsqueda y la ejecución a la unidad de ejecución. Estas unidades pueden trabajar en forma paralela en instrucciones diferentes. Estas unidades se comunican por medio de una cola de instrucciones en la que la unidad de búsqueda coloca los códigos de instrucción que leyó para que la unidad de ejecución los tome de la cola y los ejecute. Esta cola se parece a un tubo donde las instrucciones entran por un extremo y salen por el otro. De esta analogía proviene el nombre en inglés: Pipelining o entubamiento. </p>
