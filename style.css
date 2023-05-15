@@ -133,7 +133,6 @@ th {
     }
 }
 .submenu {
-    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -147,5 +146,6 @@ th {
   }
   
   .navigation li:hover .submenu {
-    display: block;
+   visibility: visible;
+	opacity: 1;
   }
