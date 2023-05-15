@@ -132,3 +132,20 @@ th {
         background: gray;
     }
 }
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0a0909;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .navigation li:hover .submenu {
+    display: block;
+  }
