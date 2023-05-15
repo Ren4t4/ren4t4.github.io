@@ -58,6 +58,7 @@ body {
 }
 
 .navigation ul li a:hover {
+	transition: all .3s;
     background: gray;
 }
 
