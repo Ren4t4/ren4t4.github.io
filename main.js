@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       navigator.geolocation.getCurrentPosition((position) => {
         var date = new Date();
         var actualTime = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-  
+
         createCoordinates(
           position.coords.latitude,
           position.coords.longitude,
@@ -48,7 +48,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       navigator.geolocation.getCurrentPosition((position) => {
         var date = new Date();
         var actualTime = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-  
+
         createCoordinates(
           position.coords.latitude,
           position.coords.longitude,
@@ -63,7 +63,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       navigator.geolocation.getCurrentPosition((position) => {
         var date = new Date();
         var actualTime = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-  
+
         createCoordinates(
           position.coords.latitude,
           position.coords.longitude,
@@ -78,7 +78,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       navigator.geolocation.getCurrentPosition((position) => {
         var date = new Date();
         var actualTime = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-  
+
         createCoordinates(
           position.coords.latitude,
           position.coords.longitude,
@@ -101,7 +101,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       navigator.geolocation.getCurrentPosition((position) => {
         var date = new Date();
         var actualTime = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-  
+
         createCoordinates(
           position.coords.latitude,
           position.coords.longitude,
@@ -150,3 +150,4 @@ window.addEventListener("DOMContentLoaded", async () => {
 //     ip
 //   );
 // });
+
