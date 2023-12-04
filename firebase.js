@@ -15,12 +15,12 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCkaRnmIhPa6PY5062RMou4tNVkRm7My28",
-  authDomain: "tecport-d1527.firebaseapp.com",
-  projectId: "tecport-d1527",
-  storageBucket: "tecport-d1527.appspot.com",
-  messagingSenderId: "383605169871",
-  appId: "1:383605169871:web:4c97f5d14d0a362aec61ba",
+  apiKey: "AIzaSyAB5fU7_pW32iz78J1Hg9P6E9RIhFUN6eU",
+  authDomain: "tecport1-ec0cb.firebaseapp.com",
+  projectId: "tecport1-ec0cb",
+  storageBucket: "tecport1-ec0cb.appspot.com",
+  messagingSenderId: "235429804495",
+  appId: "1:235429804495:web:cdbff3fbd3bd1f7ee7faba"
 };
 
 // Initialize Firebase
@@ -65,3 +65,4 @@ export const createCoordinates = (x, y, time, id_flight) => {
 
   addDoc(collection(db, "coordinates"), coordinates);
 };
+
